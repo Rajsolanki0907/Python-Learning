@@ -49,4 +49,26 @@ print(thistuple)
 
 # delete -  del keyword used to delete the tuple completely
 del tuple1
-print(tuple1) # error because it is not exist
+# print(tuple1) # error because it is not exist
+
+# unpacking of tuple in python
+fruits = ("apple","banana","cherry","mango")
+
+(grren,yellow,red,orange) = fruits
+print(grren)
+print(yellow)
+print(red)
+print(orange)
+# unpacking using Asterick
+
+print("asterick at last")
+(green,yellow,*red) =  fruits
+print(green)
+print(yellow)
+print(red)
+
+print("if asterick at mid items")
+(green,*tropic,red) = fruits
+print(green)
+print(tropic)
+print(red)
