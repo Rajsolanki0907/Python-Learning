@@ -72,3 +72,32 @@ print("if asterick at mid items")
 print(green)
 print(tropic)
 print(red)
+
+# loop through a tuple
+print("loop using for")
+for x in fruits:
+    print(x)
+
+
+print("loop using index")
+#loop through range index
+for i in range(len(fruits)):
+    print(fruits[i])
+
+
+print("loop using while")
+#while loop 
+i = 0
+while i < len(fruits):
+    print(fruits[i])
+    i = i +1
+ 
+#Join two tuples
+tuple1 = ("a" , "b" ,"c" , "d")
+tuple4 = (1,2,3,4)
+
+tupleMerge = tuple1 + tuple4
+print(tupleMerge)
+
+mytuple = fruits * 2
+print(mytuple)
