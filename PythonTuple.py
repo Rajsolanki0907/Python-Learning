@@ -94,10 +94,17 @@ while i < len(fruits):
  
 #Join two tuples
 tuple1 = ("a" , "b" ,"c" , "d")
-tuple4 = (1,2,3,4)
+tuple4 = (1,2,1,3,4)
 
 tupleMerge = tuple1 + tuple4
 print(tupleMerge)
 
 mytuple = fruits * 2
 print(mytuple)
+
+#count mtd
+x = tuple4.count(1)
+y = tuple4.index(1)
+print(x)
+print(y)
+
