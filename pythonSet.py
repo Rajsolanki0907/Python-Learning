@@ -22,3 +22,22 @@ thisset = {"apple", "banana", "cherry", False, True, 0}
 print(thisset)
 
 print(len(thisset))#lenght of set
+
+
+set1 = {"apple", "banana", "cherry"}
+set2 = {1, 5, 7, 9, 3}
+set3 = {True, False, False}
+print(set1)
+print(set2)
+print(set3)
+
+#A set can contain different data types:
+setIn = {"apple", 22, True,365,"Gram"}
+
+print(setIn)
+print(type(setIn))
+print(type(set1))
+print(type(set2))
+print(type(set3))
+
+
