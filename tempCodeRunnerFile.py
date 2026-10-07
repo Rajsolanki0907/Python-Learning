@@ -1,1 +1,1 @@
-thatlist = ["apple",""]
+print(thisset)
