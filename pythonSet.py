@@ -140,3 +140,18 @@ print(set3)
 set1.symmetric_difference_update(set2)
 
 print(set1)
+
+# Python frozenset
+# frozenset is an immutable version of a set.
+# Like sets, it contains unique, unordered, unchangeable elements.
+# Unlike sets, elements cannot be added or removed from a frozenset.
+
+#Use the frozenset() constructor to create a frozenset from any iterable.
+x = frozenset({"apple", "banana", "cherry"})
+print(x)
+print(type(x))
+
+#Copy the fruits set:
+fruits = {"apple", "banana", "cherry"}
+x = fruits.copy()
+print(x)
